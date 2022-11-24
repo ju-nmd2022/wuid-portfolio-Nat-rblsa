@@ -1,0 +1,228 @@
+/* HOMEPAGE SECTION */
+
+.Hero{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Glitch{
+    font-size: 4rem;
+    text-shadow:
+        0.05em 0 0 rgba(208, 148, 122, .75),
+        -0.25em -0.5em 0 rgba(81, 144, 133, .75),
+        0.25em .05em 0 rgba(79, 96, 104, .75);
+
+        animation: glitch 1500ms infinite;
+}
+
+@keyframes glitch {
+    0%{
+        text-shadow:
+        0.05em 0 0 rgba(208, 148, 122, .75),
+        -0.025em -0.05em 0 rgba(81, 144, 133, .75),
+        -0.025em .05em 0 rgba(79, 96, 104, .75);
+    }
+    14%{
+        text-shadow:
+        0.05em 0 0 rgba(208, 148, 122, .75),
+        -0.025em -0.05em 0 rgba(81, 144, 133, .75),
+        -0.025em .05em 0 rgba(79, 96, 104, .75);
+    }
+    15%{
+        text-shadow:
+        -0.05em -0.025em 0 rgba(208, 148, 122, .75),
+        0.025em 0.025em 0 rgba(81, 144, 133, .75),
+        -0.05em -0.05em 0 rgba(79, 96, 104, .75);
+    }
+    49%{
+        text-shadow:
+        -0.05em -0.025em 0 rgba(208, 148, 122, .75),
+        0.025em 0.025em 0 rgba(81, 144, 133, .75),
+        -0.05em -0.05em 0 rgba(79, 96, 104, .75);
+    }
+    50%{
+        text-shadow:
+        0.025em 0.05em 0 rgba(208, 148, 122, .75),
+        0.05em 0em 0 rgba(81, 144, 133, .75),
+        0 -0.05em 0 rgba(79, 96, 104, .75);
+    }
+    99%{
+        text-shadow:
+        0.025em 0.05em 0 rgba(208, 148, 122, .75),
+        0.05em 0em 0 rgba(81, 144, 133, .75),
+        0 -0.05em 0 rgba(79, 96, 104, .75);
+    }
+    100%{
+        text-shadow:
+        -0.025em 0.05em 0 rgba(208, 148, 122, .75),
+        0.05em 0 0 rgba(81, 144, 133, .75),
+        0 -0.05em 0 rgba(79, 96, 104, .75);
+    }
+}
+
+/* .Intro{
+    width: 100%;
+    padding: 25px 0px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} */
+
+.Intro-Card{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+    padding: 30px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    /* background-color: #989e8b; */
+}
+.Intro-Card::before{
+    content:"";
+    background-image: conic-gradient(
+        #583553 20deg,
+        transparent 120deg
+    );
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    animation: rotate 2s linear infinite ;
+}
+.Intro-Card::after{
+    content:".Intro-Card img, .Intro-Text";
+    width: 1035px;
+    height: 500px;
+    background-color: #989e8b;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+.Intro-Card img {
+    height: 451px;
+    /* z-index: 1; */
+    width: 338px;
+    border-radius: 5%;
+    position: absolute;
+}
+.Intro-Text{
+    width: 550px;
+    position: absolute;
+    background-color: RGBA(255, 255, 255, 0.50);
+    border-radius: 10px;
+    padding: 10px; 
+    /* z-index: 1; */
+}
+    .Intro-Content{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+} 
+
+.Facts{
+    background: white;
+    width: 100%;
+    padding: 15px 0px;
+}
+.Facts-Title h2{
+    color: black;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.Facts-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.Facts img{
+    border-radius: 50%;
+    margin: 30px 0px;
+}
+.Facts-Card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #f7e3d4;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.Facts-Text{
+    margin-top: 15px;
+}
+
+
+
+.Jonkoping{
+    width: 50%;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+
+}
+.Jonkoping .Button-JKPG{
+    background-color: #c58b2a;
+    color: white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin: 2%;
+}
+.Jonkoping .Button-JKPG:hover{
+    background-color: #4b553a;
+    cursor: pointer; 
+}
+
+.Portfolio{
+    width: 50%;
+    height: 290px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+}
+.Portfolio .Button-Portfolio{
+    background-color: #4b553a;
+    color: white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin: 2%;
+}
+.Portfolio .Button-Portfolio:hover{
+    background-color: #c58b2a;
+    cursor: pointer; 
+}

@@ -1,0 +1,115 @@
+.JKPG-Hero{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding-top: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.JKPG-Intro{
+    width: 100%;
+    padding: 25px 0px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.JKPG-Intro-Card{
+    width: 920px; 
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: 400px;
+    padding: 20px 35px;
+    background-image: url(../First\ Website/JKPG.jpg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+}
+.JKPG-Intro-Text{
+    width: 550px;
+    font-size: 36px;
+    color: white;
+}
+
+.JKPG-WTE{
+    text-align: center;
+    position: relative;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+.JKPG-WTE-Title{
+    color: black;
+    width: 1130px;
+    margin: 30px auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.WTE-List{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.WTE-List img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.JKPG-WTD{
+    text-align: center;
+    position: relative;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+.JKPG-WTD-Title{
+    color: black;
+    width: 1130px;
+    margin: 30px auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+.WTD-List{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.WTD-List img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.JKPG-WTG{
+    text-align: center;
+    position: relative;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+.JKPG-WTG-Title{
+    color: black;
+    width: 1130px;
+    margin: 30px auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+.WTG-List{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.WTG-List img{
+    width: 100%;
+    border-radius: 10px;
+}
