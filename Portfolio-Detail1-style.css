@@ -1,0 +1,186 @@
+.ento-Hero{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding-top: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ento-Intro{
+    width: 100%;
+    padding: 25px 0px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.ento-Intro-Card{
+    width: 800px; 
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    height: 400px;
+    padding: 20px 35px;
+    background-image: url(../First\ Website/ento-cover.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+.ento-Context{
+    width: 100%;
+    padding: 100px 0px;
+}
+.ento-Context img{
+    height: 700px;
+    width: 430px;
+    border-radius: 15%;
+}
+.Context-Text{
+    width: 450px;
+}
+.Description{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5px;
+    min-width: 300px;
+}
+
+@media screen and (min-width:795px){
+    .ento-Context{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 30px;
+    }
+    .Context-Text{
+        float: right;
+        width: 50%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .Description{
+        display: flex;
+    }
+    .Context-Description{
+        align-items: center;
+        align-content: center;
+
+    }
+}
+
+
+.ento-Requirements{
+    text-align: center;
+    position: relative;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+.ento-Requirements-Title{
+    width: 800px;
+    margin: 30px auto;
+    margin-bottom: 7%;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ff6600;
+    border-radius: 15px;
+    color: white;
+}
+.Requirements-List{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.Requirements-List img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.Proposal{
+    text-align: center;
+    /* position: absolute; */
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* overflow: hidden; */
+}
+.Proposal-Description{
+    font-size: 24px;
+    margin-bottom: 5%;
+    display: flex;
+}
+.Proposal-Title{
+    width: 800px;
+    margin: 30px auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ff6600;
+    border-radius: 15px;
+    color: white;
+}
+.Proposal-IMG{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.Proposal-IMG img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Channels{
+    text-align: center;
+   /* position: absolute; */
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+   /* overflow: hidden; */
+}
+.Channels-Description{
+    font-size: 24px;
+    margin-bottom: 5%;
+    display: flex;
+}
+.Channels-Title{
+    width: 800px;
+    margin: 30px auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ff6600;
+    border-radius: 15px;
+    color: white;
+}
+.Channels-IMG{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.Channels-IMG img{
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-bottom: 10%;
+}

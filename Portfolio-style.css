@@ -1,0 +1,207 @@
+*{
+    margin: 0.5%;
+    padding: 0.5%;
+    box-sizing: border-box;
+}
+
+.Portfolio-Hero{
+    height: auto;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: pink;
+}
+
+.Projects-Container1{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Project-Box1{
+    max-width: 350px;
+    padding: 10px;
+    background-color: #dbe3e6;
+    border-radius: 20px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
+.Project-Box1 img{
+    max-width: 300px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.Project-Box1 .Project-Heading1,
+.Project-Box1 .Project-Description1{
+    width:100%;
+    padding: 0 5px;
+    min-width: 300px;
+}
+h2{
+    text-transform: uppercase;
+}
+h4{
+    color:gray;
+}
+p{
+    margin: 10px 0;
+}
+a{
+    display:inline-block;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #405f94;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+}
+a:hover{
+    display: inline-block;
+    background-color: orchid;
+    color:black;
+    cursor: pointer; 
+}
+
+@media screen and (min-width:700px){
+    .Projects-Container1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+        grid-gap: 30px;
+
+    }
+    .Project-Box1{
+        max-width: 700px;
+    }
+    .Project-Box1 img{
+        float: left;
+    }
+    .Project-Box1 .Project-Heading1,
+    .Project-Box1 .Project-Description1{
+        float: right;
+        width: 50%;
+    }
+}
+
+.Projects-Container2{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Project-Box2{
+    max-width: 350px;
+    padding: 10px;
+    background-color: #e9cfc1;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.Project-Box2 img{
+    max-width: 300px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 5%;
+}
+.Project-Box2 .Project-Heading2,
+.Project-Box2 .Project-Description2{
+    width:100%;
+    padding: 0 5px;
+    min-width: 300px;
+}
+
+@media screen and (min-width:700px){
+    .Projects-Container2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+        grid-gap: 30px;
+
+    }
+    .Project-Box2{
+        max-width: 700px;
+    }
+    .Project-Box2 img{
+        float: left;
+    }
+    .Project-Box2 .Project-Heading2,
+    .Project-Box2 .Project-Description2{
+        float: right;
+        width: 50%;
+    }
+}
+
+.Projects-Container3{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Project-Box3{
+    max-width: 350px;
+    padding: 10px;
+    background-color: #b2c0a6;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.Project-Box3 img{
+    max-width: 300px;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 5%;
+}
+.Project-Box3 .Project-Heading3,
+.Project-Box3 .Project-Description3{
+    width:100%;
+    padding: 0 5px;
+    min-width: 300px;
+}
+
+@media screen and (min-width:700px){
+    .Projects-Container3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+        grid-gap: 30px;
+
+    }
+    .Project-Box3{
+        max-width: 700px;
+    }
+    .Project-Box3 img{
+        float: left;
+    }
+    .Project-Box3 .Project-Heading3,
+    .Project-Box3 .Project-Description3{
+        float: right;
+        width: 50%;
+    }
+}
